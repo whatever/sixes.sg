@@ -1,0 +1,31 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 60pt;
+  font-family: sans-serif;
+  letter-spacing: 0.05em;
+  background-color: white;
+  color: #212121;
+}
+
+header {
+  margin-bottom: solid 4px white;
+  background-color: #212121;
+  color: white;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+header {
+  white-space: nowrap;
+  overflow: hidden;
+}
+header .hidden {
+  color: #212121;
+  font-size: 20%;
+}
+
+/*# sourceMappingURL=style.css.map */

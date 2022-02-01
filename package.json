@@ -1,0 +1,27 @@
+{
+  "name": "sixes.sg",
+  "version": "0.0.0",
+  "description": "don't care",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "livest": "python3 -m http.server --directory docs 8080",
+    "sassify": "sass --watch sass/*.scss docs/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatever/sixes.sg.git"
+  },
+  "author": "Matt",
+  "license": "SEE LICENSE IN /LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/whatever/sixes.sg/issues"
+  },
+  "homepage": "https://github.com/whatever/sixes.sg#readme",
+  "devDependencies": {
+    "sass": "^1.49.0"
+  }
+}
