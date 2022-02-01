@@ -1,17 +1,48 @@
 html, body {
   padding: 0;
   margin: 0;
+  font-size: 14pt;
 }
 
 body {
-  font-size: 60pt;
   font-family: sans-serif;
   letter-spacing: 0.05em;
   background-color: white;
   color: #212121;
 }
 
-header {
+a {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: orange;
+}
+a:active {
+  color: red;
+}
+
+.inline-nav {
+  padding-left: 0.25em;
+  margin: 0;
+}
+.inline-nav li {
+  float: left;
+  list-style-type: none;
+  padding-right: 1em;
+  padding-left: 0em;
+}
+
+#headline {
+  font-size: 300%;
+  margin: 0;
+  padding: 0.25em 0.1em;
+}
+
+nav {
   margin-bottom: solid 4px white;
   background-color: #212121;
   color: white;
@@ -19,11 +50,11 @@ header {
   font-style: italic;
 }
 
-header {
+nav {
   white-space: nowrap;
   overflow: hidden;
 }
-header .hidden {
+nav .hidden {
   color: #212121;
   font-size: 20%;
 }
